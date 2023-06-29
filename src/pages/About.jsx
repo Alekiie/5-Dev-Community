@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className="mx-10 mt-16 md:mt-10 text-white font-display">
       <div className="border-l-4 border-l-[#fc5356] px-4 text-2xl   font-display md:text-4xl font-semibold">
-        <h2>What 5Devs Do?</h2>
+        <h2>What 5Devs Do</h2>
       </div>
       <p className="w-full text-medium md:w-1/2 md:text-lg pt-8">
         5Devs.com is a one-stop solution for responsive web design, custom
