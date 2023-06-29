@@ -10,8 +10,7 @@ const App = () => {
     <Router> {/* Wrap the Routes component with the Router component */}
         <NavBar/>
         
-      <div>
-      </div>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />

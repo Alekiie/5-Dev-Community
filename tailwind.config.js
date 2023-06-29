@@ -27,6 +27,7 @@ export default {
           'color-subtext': '#FF8A71',
           'gradient-text': 'linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);',
          
+         
         },
         
         borderWidth: {
@@ -54,6 +55,8 @@ export default {
 
           'gradient-bg': 'radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%)',
           'input-bg':'#040C18',
+          'icon-color' : '#fc5356',
+          'gradient-div-bg':'radial-gradient(circle at 30% -100%,#042c54 25%,#042c54 85%,#1b78de 100%)',
          
 
         },

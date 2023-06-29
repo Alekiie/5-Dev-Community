@@ -33,7 +33,7 @@ const Home = () => {
                 className="rounded-xl  border-none rounded-r-none bg-[#002846] w-3/4 p-2 outline-none text-white"
               />
               <button className="bg-[#ff4820] p-2 rounded-xl rounded-l-none">
-                Join Our Team
+                Contact Us
               </button>
             </div>
             <br />
