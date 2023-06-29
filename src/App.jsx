@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
-    <div className="w-full h-full bg-gradient-bg max-w-[100%] ">
+    <div className="w-full h-full bg-gradient-bg max-w-[100vw] max-h-[100%] overflow-hidden  min-h-screen ">
 
     <Router> {/* Wrap the Routes component with the Router component */}
         <NavBar/>

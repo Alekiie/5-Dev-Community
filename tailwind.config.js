@@ -57,6 +57,7 @@ export default {
           'input-bg':'#040C18',
           'icon-color' : '#fc5356',
           'gradient-div-bg':'radial-gradient(circle at 30% -100%,#042c54 25%,#042c54 85%,#1b78de 100%)',
+          'bg-footer':'rgb(14,22,46);'
          
 
         },

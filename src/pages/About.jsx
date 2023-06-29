@@ -7,10 +7,11 @@ import { CgMenuGridO } from "react-icons/cg";
 import {MdOutlineSupport} from 'react-icons/md'
 import "./pages.css";
 import Box from "../components/Box.jsx";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
-    <div className="mx-10 mt-16 md:mt-10 text-white font-display mb-10">
+    <div className="mx-10 mt-16 md:mt-10 text-white font-display">
       <div className="border-l-4 border-l-[#fc5356] px-4 text-2xl   font-display md:text-4xl font-semibold">
         <h2>What 5Devs Do?</h2>
       </div>
@@ -65,6 +66,7 @@ const About = () => {
             website or application runs smoothly and efficiently."
         />
       </div>
+      <Footer/>
     </div>
   );
 };

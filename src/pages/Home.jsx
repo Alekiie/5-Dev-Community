@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Photo1 from "../resources/preview.png";
 const Home = () => {
   return (
@@ -57,6 +58,7 @@ const Home = () => {
           logic, ensuring a smooth and streamlined experience for your users.
         </span>
       </div>
+      <Footer/>
     </>
   );
 };
