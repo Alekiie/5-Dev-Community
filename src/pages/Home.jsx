@@ -25,15 +25,15 @@ const Home = () => {
             <span className="text-color-subtext font-bold text-2xl font-display mb-4 uppercase">
               Become Part of our Team?
             </span>
-            <div className="">
+            <div className="flex text-sm w-full md:block md:text-lg">
               <input
                 type="email"
                 name=""
                 id=""
                 placeholder="E-mail Address"
-                className="rounded-xl  border-none rounded-r-none bg-[#002846] w-3/4 p-2 outline-none text-white"
+                className="rounded-xl  border-none rounded-r-none bg-[#002846] w-1/2 md:w-3/4 p-1 md:p-2 outline-none text-white"
               />
-              <button className="bg-[#ff4820] p-2 rounded-xl rounded-l-none">
+              <button className="bg-[#ff4820] p-1 md:p-2 rounded-xl rounded-l-none">
                 Contact Us
               </button>
             </div>
