@@ -11,6 +11,9 @@
   --color-light: rgba(255, 255, 255, 0.6);
   --transition: all 400ms ease;
 }
+::-webkit-scrollbar{
+  display: none;
+}
 .container{
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -25,7 +28,7 @@
   color: var(--color-white);
   text-shadow: 0px 3px 6px var(--color-primary);
   font-family: 'Dancing Script', cursive;
-  font-size: large;
+  font-size: 25px;
 }
 .rows{
   padding: 1rem;
@@ -65,7 +68,8 @@
 }
 .contact__option-icon{
   font-size: 1.5rem;
-  margin-bottom: -.5rem;
+  margin-bottom: .5rem;
+  margin-left: calc(45%);
 }
 .contact__option a{
   margin-top: 0.7rem;
