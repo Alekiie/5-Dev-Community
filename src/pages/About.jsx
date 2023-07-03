@@ -1,15 +1,15 @@
-import React from "react";
 import { PiArrowsOutFill } from "react-icons/pi";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiSolidMessageRounded } from "react-icons/bi";
 import { BsCodeSlash } from "react-icons/bs";
 import { CgMenuGridO } from "react-icons/cg";
-import {MdOutlineSupport} from 'react-icons/md'
+import { MdOutlineSupport } from "react-icons/md";
 import "./pages.css";
 import Box from "../components/Box.jsx";
 import Footer from "../components/Footer";
 
 const About = () => {
+ 
   return (
     <div className="mx-10 mt-16 md:mt-10 text-white font-display">
       <div className="border-l-4 border-l-[#fc5356] px-4 text-2xl   font-display md:text-4xl font-semibold">
@@ -26,9 +26,9 @@ const About = () => {
         <Box
           title="Responsive Web Design"
           icon={<PiArrowsOutFill />}
-          text=" We specialize in creating visually appealing and user-friendly websites
-        that seamlessly adapt to different devices and screen sizes. Our designs
-        prioritize intuitive navigation and engaging user experiences."
+          text="We specialize in creating visually appealing and user-friendly websites
+          that seamlessly adapt to different devices and screen sizes. Our designs
+          prioritize intuitive navigation and engaging user experiences."
         />
         <Box
           title="Custom Web Development"
@@ -66,7 +66,7 @@ const About = () => {
             website or application runs smoothly and efficiently."
         />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
