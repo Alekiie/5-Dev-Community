@@ -14,10 +14,11 @@ const Home = () => {
           <br />
 
           <span className="mt-8">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse odit
-            rerum in neque provident incidunt molestiae. Dignissimos odio ea,
-            harum inventore totam qui similique voluptatibus voluptatem nihil,
-            temporibus, officiis quos.
+            With our team at the helm, you can rest assured that your users will
+            enjoy a smooth and streamlined experience. We strive to create
+            user-friendly interfaces that engage and captivate, while the
+            powerful backend systems work tirelessly behind the scenes to
+            deliver optimal performance.
           </span>
           <br />
           <br />
@@ -31,9 +32,9 @@ const Home = () => {
                 name=""
                 id=""
                 placeholder="E-mail Address"
-                className="rounded-xl  border-none rounded-r-none bg-[#002846] w-1/2 md:w-3/4 p-1 md:p-2 outline-none text-white"
+                className="rounded-xl  border-none rounded-r-none bg-[#002846]  w-full md:w-3/4 p-1 md:p-2 outline-none text-white"
               />
-              <button className="bg-[#ff4820] p-1 md:p-2 rounded-xl rounded-l-none">
+              <button className="md:inline-flex  bg-[#ff4820] p-1 md:p-2 rounded-xl rounded-l-none">
                 Contact Us
               </button>
             </div>
@@ -50,15 +51,14 @@ const Home = () => {
       </div>
       <div className="m-4">
         <span className=" text-white font-display text-lg">
-          As full-stack developers, we possess a comprehensive understanding of
-          both frontend and backend development. This enables us to handle
-          end-to-end development projects efficiently, ensuring a cohesive and
-          integrated solution for your business. We take care of every aspect,
-          from designing the user interface to implementing the server-side
-          logic, ensuring a smooth and streamlined experience for your users.
+          Join us on this exciting journey of transforming your digital
+          aspirations into reality. Let&apos; work together to create an exceptional
+          online presence that sets you apart from the competition. Get ready to
+          impress your users and achieve your business goals with our expert
+          full-stack development services.
         </span>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
