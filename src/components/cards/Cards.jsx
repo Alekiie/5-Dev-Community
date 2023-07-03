@@ -1,4 +1,6 @@
 import Avatar from '../../assets/images/avatar3.jpg'
+import {AiFillGithub,AiFillTwitterCircle} from 'react-icons/ai'
+import { BiLogoUpwork } from 'react-icons/bi';
 import './cards.css'
 
 const Cards = ({name}) => {
@@ -22,6 +24,11 @@ const Cards = ({name}) => {
           ratione alias aliquid, deleniti atque repellat voluptatibus quae iure
           cupiditate.
         </span>
+      </div>
+      <div className='grid grid-cols-3 '>
+        <AiFillGithub size={30}/>
+        <AiFillTwitterCircle size={30}/>
+        <BiLogoUpwork size={30}/>
       </div>
     </div>
   );
