@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ysabeau+Infant:wght@100;200&display=swap');
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #1c3174;
+  --color-primary: hsl(205, 88%, 55%);
+  --color-primary-variant: hsl(205, 74%, 41%);
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --transition: all 400ms ease;
+}
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container .heading{
+  margin-bottom: 1.2rem;
+  color: var(--color-white);
+  text-shadow: 0px 3px 6px var(--color-primary);
+  font-family: 'Dancing Script', cursive;
+  font-size: large;
+}
+.rows{
+  padding: 1rem;
+  background: transparent;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+  border: 1px solid var(--color-primary);
+  border-radius: 1.5rem;
+  font-family: 'Ysabeau Infant', sans-serif;
+  transition: var(--transition);
+}
+.rows:hover{
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+}
+.contact__options{
+  display: flex;
+  color: var(--color-white);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.contact__option{
+  width: 70%;
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.contact__option:hover{
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+.contact__option-icon{
+  font-size: 1.5rem;
+  margin-bottom: -.5rem;
+}
+.contact__option a{
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--color-primary);
+}
+form{
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--color-bg-variant);
+  border: 1px solid var(--color-primary);
+  border-radius: 1rem;
+  font-family: inherit;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+form input, form textarea{
+  border: none;
+  outline: none;
+  padding: .3rem .8rem;
+  border-radius: .5rem;
+  color: var(--color-bg);
+  font-family: inherit;
+  font-weight: 700;
+  background: var(--color-primary-variant);
+  transition: var(--transition);
+}
+form input:focus, form textarea:focus{
+  background: var(--color-white);
+  inset: .5px;
+}
+button.btn{
+  display: inline-flex;
+  gap: 1rem;
+  justify-content: center;
+  color: var(--color-light);
+  padding: .5rem;
+  background: var(--color-bg);
+  width: 70%;
+  align-self: center;
+  border-radius: 2rem;
+  transition: var(--transition);
+}
+button.btn .submit__icon{
+  margin-top: .3rem;
+}
+/* ---Medium Devices--*/
+@media screen and (max-width: 1024px){
+  .rows{
+      grid-template-columns: 1fr;
+      gap: 2rem;
+  }
+}
+
+/* ---Small Devices--*/
+@media screen and (max-width: 600px){
+  .rows{
+      width: var(--container-width-sm);
+  }
+}
