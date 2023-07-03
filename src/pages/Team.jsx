@@ -1,3 +1,5 @@
+import React from 'react';
+import Footer from "../components/Footer";
 import Cards from "../components/cards/Cards";
 
 const Team = () => {
@@ -24,6 +26,7 @@ const Team = () => {
       <Cards name='Member Name'/>
    
       </div>
+      <Footer/>
     </div>
   );
 };

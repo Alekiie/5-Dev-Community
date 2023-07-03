@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="  shadow-lg  mx-10 bg-gradient-bg mt-20 ">
+    <div className=" w-full shadow-lg   bg-gradient-bg mt-20 ">
       <div className="flex items-center justify-center border border-slate-400 w-full"></div>
       <p className="text-center mt-4 text-slate-600 cursor-pointer">
         Copyright &copy; 2023 5Devs Community,All Rights Reserved
