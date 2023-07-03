@@ -4,6 +4,7 @@ import {SiMinutemailer} from 'react-icons/si'
 import {BiSolidPhoneCall} from 'react-icons/bi'
 import {BsWhatsapp} from 'react-icons/bs'
 import './Contact.css'
+import Footer from '../components/Footer'
 
 function Contact() {
   const form = useRef();
@@ -55,6 +56,7 @@ const sendEmail = (e) => {
         </div>
       </div>
     </div>
+    <Footer/>
    </>
   )
 }
