@@ -1,11 +1,12 @@
 import React from "react";
 
 const Footer = () => {
+  const currentYear= new Date().getFullYear()
   return (
     <div className=" w-full shadow-lg   bg-gradient-bg mt-20 ">
       <div className="flex items-center justify-center border border-slate-400 w-full"></div>
       <p className="text-center mt-4 text-slate-600 cursor-pointer">
-        Copyright &copy; 2023 5Devs Community,All Rights Reserved
+        Copyright &copy; {currentYear} 5Devs Community,All Rights Reserved
       </p>
       <p className="text-center mt-4 text-slate-600 cursor-pointer mb-8">
         Follow us on <span className="text-subtext">Twitter</span>

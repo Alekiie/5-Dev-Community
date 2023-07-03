@@ -1,13 +1,13 @@
-import Avatar from '../../assets/images/avatar3.jpg'
+
 import {AiFillGithub,AiFillTwitterCircle} from 'react-icons/ai'
 import { BiLogoUpwork } from 'react-icons/bi';
 import './cards.css'
 
-const Cards = ({name}) => {
+const Cards = ({name,image}) => {
   return (
     <div className="border rounded-lg p-2 md:px-8  flex flex-col text-sm font-display text-white  card cursor-pointer w-full">
       <div className=" flex  md:px-8 flex-col text-subtext text-sm font-semibold md:text-lg md:flex md:flex-col ">
-        <img src={Avatar}  alt="passport" className=" max-w-fit flex justify-center items-center mx-auto  rounded-full py-2" />
+        <img src={image}  alt="passport" className=" max-w-[160px] max-h-[160px] flex justify-center items-center mx-auto  rounded-full py-2" />
         <p className=" my-auto text-sm text-center md:text-xl md:flex md:justify-center md:items-center md:pl-8 ">{name}</p>
       </div>
       <div>
