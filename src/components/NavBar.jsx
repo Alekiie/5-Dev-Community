@@ -5,21 +5,31 @@ import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false)
+
+  const handleMenuOnClick = () => {
+    setShowMenu(!showMenu);
+    if (window.innerWidth < 768) {
+      setToggleMenu(false);
+    }
+  };
+
+
   const Menu = () => (
     <>
       <div className="flex flex-col justify-end items-end md:flex-row
        text-white gap-8 font-display font-medium text-lg md:text-xl ">
         
-        <Link to="/home">
+        <Link to="/home" onClick={handleMenuOnClick}>
           <span>Home</span>
         </Link>
-        <Link to="/about">
+        <Link to="/about" onClick={handleMenuOnClick}>
           <span>About</span>
         </Link>
-        <Link to="/team">
+        <Link to="/team" onClick={handleMenuOnClick}>
           <span>Team</span>
         </Link>
-        <Link to="/contact">
+        <Link to="/contact" onClick={handleMenuOnClick}>
           <span>Contact</span>
         </Link>
       
