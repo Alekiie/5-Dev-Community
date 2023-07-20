@@ -16,6 +16,7 @@ export default {
         "main-dark-bg": "#20232A",
         "secondary-dark-bg": "#33373E",
         "light-gray": "#F7F7F7",
+        "button-color": "#e42c64",
         "half-transparent": "rgba(0, 0, 0, 0.5)",
         favourite: "#3f5efb",
         "gradient-text":
