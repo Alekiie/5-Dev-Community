@@ -1,6 +1,5 @@
 import Footer from "../components/Footer";
-import { Mwatheka, Alex } from "../assets/images";
-import { Avatar } from "../assets/images";
+import { Mwatheka, Alex, Kimani, Avatar } from "../assets/images";
 
 import Cards from "../components/cards/Cards";
 
@@ -22,7 +21,7 @@ const Team = () => {
         </p>
         <div className="flex flex-col md:grid md:grid-cols-3 gap-8 mt-8">
           <Cards name="John Mwatheka" image={Mwatheka} />
-          <Cards name="Washington Kimani" image={Avatar} />
+          <Cards name="Washington Kimani" image={Kimani} />
           <Cards name="Alexander Maina" image={Alex} />
           <Cards name="Member Name" image={Avatar} />
           <Cards name="Member Name" image={Avatar} />
