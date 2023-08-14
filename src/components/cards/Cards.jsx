@@ -1,34 +1,30 @@
+import * as FaIcons from 'react-icons/fa';
+import "./cards.css";
 
-import {AiFillGithub,AiFillTwitterCircle} from 'react-icons/ai'
-import { BiLogoUpwork } from 'react-icons/bi';
-import './cards.css'
-
-const Cards = ({name,image}) => {
+const Cards = ({ name, image, location,whatsapp, github, twitter }) => {
   return (
-    <div className="border rounded-lg p-2 md:px-8  flex flex-col text-sm font-display text-white  card cursor-pointer w-full">
-      <div className=" flex  md:px-8 flex-col text-subtext text-sm font-semibold md:text-lg md:flex md:flex-col ">
-        <img src={image}  alt="passport" className=" max-w-[160px] max-h-[160px] flex justify-center items-center mx-auto  rounded-full py-2" />
-        <p className=" my-auto text-sm text-center md:text-xl md:flex md:justify-center md:items-center md:pl-8 ">{name}</p>
+    <div className="card-container">
+      <span className="pro">PRO</span>
+      <img className="round" src={image} alt="user"/>
+      <h3>{name}</h3>
+      <h6> {location}</h6>
+      <p>User interface designer and <br /> front-end developer.</p>
+      <div className="socials">
+        <a href={whatsapp} target='_blank'><FaIcons.FaWhatsapp className='social_icon'/></a>
+        <a href={github} target='_blank'><FaIcons.FaGithub className='social_icon'/></a>
+        <a href={twitter} target='_blank'><FaIcons.FaTwitter className='social_icon'/></a>
       </div>
-      <div>
-        <p className="text-white font-bold pt-8 grid grid-cols-2">Area of Expertise: 
-        <span className="px-0  text-sm col-span-1">
-
-          Frontend Developer
-          </span>
-          </p>
-
-        <span className='text-slate-500 '>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          velit ut ipsum blanditiis odio in, doloremque quia. Eum quo beatae
-          ratione alias aliquid, deleniti atque repellat voluptatibus quae iure
-          cupiditate.
-        </span>
-      </div>
-      <div className='grid grid-cols-3 '>
-        <AiFillGithub size={30}/>
-        <AiFillTwitterCircle size={30}/>
-        <BiLogoUpwork size={30}/>
+      <div className="skills">
+        <h6>Skills</h6>
+        <ul>
+          <li>UI / UX</li>
+          <li>Front End Development</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node</li>
+        </ul>
       </div>
     </div>
   );
