@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import { Mwatheka, Alex, Kimani,Joseph, Avatar } from "../assets/images";
+import { Mwatheka, Alex, Kimani,Joseph, Nick } from "../assets/images";
 
 import Cards from "../components/cards/Cards";
 
@@ -38,10 +38,10 @@ const props = [
   },
   {
     name: "Nicholas Murimi",
-    image: Avatar,
+    image: Nick,
     location: "Nairobi",
     whatsapp: "https://wa.me/+254716453748?text=Hello%20Nick",
-    github: "https://github.com/",
+    github: "https://github.com/nic3holas",
     linkedin: "https://www.linkedin.com/in/nicholas-murimi-684113233",
   },
 ];
