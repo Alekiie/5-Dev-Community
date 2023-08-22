@@ -1,4 +1,5 @@
 export {default as Alex} from './alex.jpeg'
 export {default as Mwatheka} from './mwatheka.jpeg'
+export {default as Joseph} from './joseph.png'
 export {default as Avatar} from './avatar3.jpg'
 export {default as Kimani} from './kimani.jpg'

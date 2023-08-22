@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import { Mwatheka, Alex, Kimani, Avatar } from "../assets/images";
+import { Mwatheka, Alex, Kimani,Joseph, Avatar } from "../assets/images";
 
 import Cards from "../components/cards/Cards";
 
@@ -30,7 +30,7 @@ const props = [
   },
   {
     name: "Joseph Odira",
-    image: Avatar,
+    image: Joseph,
     location: "Nairobi",
     whatsapp: "https://wa.me/+254112858989?text=Hello%20Joseph",
     github: "https://github.com/",
