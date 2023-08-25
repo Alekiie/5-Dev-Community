@@ -1,6 +1,7 @@
 import  { useState } from "react";
 import { Link } from "react-router-dom";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
+import {default as Logo} from '../resources/bare_logo.png'
 
 
 const NavBar = () => {
@@ -43,8 +44,9 @@ const NavBar = () => {
         <div className="flex flex-1 md:justify-start items-center text-white ">
           <div className="absolute ml-4 md:relative md:pt-0 top-3 mb-4 md:mb-2 left-0 text-xl font-bold">
             <Link to="/home">
-              <span className="font-display text-subtext text-gradient-text text-2xl">
-                5-Devs
+              <span className="font-display  md:mb-0 flex text-subtext text-gradient-text gap-2 md:gap-8 items-center justify-center text-2xl">
+                <img src={Logo} alt="logo" className="max-w-[95px] max-h-[95px]" />
+                
               </span>
             </Link>
           </div>

@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import Photo1 from "../resources/preview.png";
+import Photo1 from "../resources/bare_logo.png";
 const Home = () => {
   return (
     <>
@@ -41,7 +41,7 @@ const Home = () => {
             <br />
           </div>
         </h2>
-        <div className="flex md:mb-8 ">
+        <div className="flex md:mb-8 items-center justify-center">
           <img
             src={Photo1}
             alt="preview"
