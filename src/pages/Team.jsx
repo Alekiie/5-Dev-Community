@@ -5,7 +5,7 @@ import Cards from "../components/cards/Cards";
 
 const props = [
   {
-    name: "John Mwatheka",
+    name: "Mwatheka John",
     image: Mwatheka,
     location: "Nairobi",
     whatsapp: "https://wa.me/+254757909044?text=Hello%20John",
