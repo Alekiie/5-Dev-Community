@@ -21,7 +21,7 @@ const props = [
     whatsapp: "https://wa.me/+254768444197?text=Hello%20Alex",
     github: "https://github.com/Alekiie",
     linkedin: "https://www.linkedin.com/in/alexander-maina-63ba8a232",
-    role : 'FrontEnd Developer',
+    role : 'MERN Stack Developer',
     skills: ['HTML','CSS','JS', 'MySQL', 'ReactJs', 'TailwindCSS', 'Nextjs','Nodejs','MongoDB','Python3']
   },
   {
