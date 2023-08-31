@@ -22,7 +22,7 @@ const props = [
     github: "https://github.com/Alekiie",
     linkedin: "https://www.linkedin.com/in/alexander-maina-63ba8a232",
     role : 'MERN Stack Developer',
-    skills: ['HTML','CSS','JS', 'MySQL', 'ReactJs', 'TailwindCSS', 'Nextjs','Nodejs','MongoDB','Python3']
+    skills: ['HTML','CSS','JS', 'MySQL', 'ReactJs', 'TailwindCSS', 'Nextjs','Nodejs','MongoDB','Python3','D3 Js']
   },
   {
     name: "Washington Kimani",
