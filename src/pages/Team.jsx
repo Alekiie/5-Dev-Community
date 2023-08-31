@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import { Mwatheka, Alex, Kimani,Joseph, Nick } from "../assets/images";
+import { Mwatheka, Alex, Kimani, Joseph, Nick } from "../assets/images";
 
 import Cards from "../components/cards/Cards";
 
@@ -11,8 +11,16 @@ const props = [
     whatsapp: "https://wa.me/+254757909044?text=Hello%20John",
     github: "https://github.com/Mwatheka",
     linkedin: "https://www.linkedin.com/in/abraham-mwatheka-424250239",
-    role : 'Full Stack Developer',
-    skills: ['JS', 'PHP', 'Laravel', 'API integration', 'HTML', 'CSS', 'WordPress']
+    role: "Full Stack Developer",
+    skills: [
+      "JS",
+      "PHP",
+      "Laravel",
+      "API integration",
+      "HTML",
+      "CSS",
+      "WordPress",
+    ],
   },
   {
     name: "Alexander Maina",
@@ -21,8 +29,18 @@ const props = [
     whatsapp: "https://wa.me/+254768444197?text=Hello%20Alex",
     github: "https://github.com/Alekiie",
     linkedin: "https://www.linkedin.com/in/alexander-maina-63ba8a232",
-    role : 'MERN Stack Developer',
-    skills: ['HTML','CSS','JS', 'MySQL', 'ReactJs', 'TailwindCSS', 'Nextjs','Nodejs','MongoDB','Python3','D3 Js']
+    role: "MERN Stack Developer",
+    skills: [
+      "HTML",
+      "CSS",
+      "JS",
+      "TailwindCSS",
+      "MERN",
+      "MySQL",
+      "Nextjs",
+      "Python3",
+      "D3 Js",
+    ],
   },
   {
     name: "Washington Kimani",
@@ -31,8 +49,8 @@ const props = [
     whatsapp: "https://wa.me/+254745811535?text=Hello%20Washington",
     github: "https://github.com/Washington-Kimani",
     linkedin: "https://www.linkedin.com/in/washington-kimani-4a306b232/",
-    role : 'MERN Stack Developer',
-    skills: ['HTML', 'CSS', 'JS', 'jQuery', 'BootStrap', 'MERN', 'MySQL']
+    role: "MERN Stack Developer",
+    skills: ["HTML", "CSS", "JS", "jQuery", "BootStrap", "MERN", "MySQL"],
   },
   {
     name: "Joseph Odira",
@@ -41,8 +59,16 @@ const props = [
     whatsapp: "https://wa.me/+254112858989?text=Hello%20Joseph",
     github: "https://github.com/",
     linkedin: "https://ke.linkedin.com/in/joseph-odira-52b283225",
-    role : 'FrontEnd Developer',
-    skills: ['JS', 'PHP', 'Laravel', 'API integration', 'HTML', 'CSS', 'WordPress']
+    role: "FrontEnd Developer",
+    skills: [
+      "JS",
+      "PHP",
+      "Laravel",
+      "API integration",
+      "HTML",
+      "CSS",
+      "WordPress",
+    ],
   },
   {
     name: "Nicholas Murimi",
@@ -51,8 +77,22 @@ const props = [
     whatsapp: "https://wa.me/+254716453748?text=Hello%20Nick",
     github: "https://github.com/nic3holas",
     linkedin: "https://www.linkedin.com/in/nicholas-murimi-684113233",
-    role : 'Full Stack Developer',
-    skills: ['HTML','CSS', 'BootStrap','Angular','PHP','MySQL', 'JavaScript','Java','C++', 'Python 3', 'FrontEnd', 'Backend', 'Android Dev']
+    role: "Full Stack Developer",
+    skills: [
+      "HTML",
+      "CSS",
+      "BootStrap",
+      "Angular",
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "Java",
+      "C++",
+      "Python 3",
+      "FrontEnd",
+      "Backend",
+      "Android Dev",
+    ],
   },
 ];
 
