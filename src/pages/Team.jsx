@@ -11,6 +11,7 @@ const props = [
     whatsapp: "https://wa.me/+254757909044?text=Hello%20John",
     github: "https://github.com/Mwatheka",
     linkedin: "https://www.linkedin.com/in/abraham-mwatheka-424250239",
+    portfolio: "#",
     role: "Full Stack Developer",
     skills: [
       "JS",
@@ -29,6 +30,7 @@ const props = [
     whatsapp: "https://wa.me/+254768444197?text=Hello%20Alex",
     github: "https://github.com/Alekiie",
     linkedin: "https://www.linkedin.com/in/alexander-maina-63ba8a232",
+    portfolio: "https://alexander-maina.vercel.app/",
     role: "MERN Stack Developer",
     skills: [
       "HTML",
@@ -49,6 +51,7 @@ const props = [
     whatsapp: "https://wa.me/+254745811535?text=Hello%20Washington",
     github: "https://github.com/Washington-Kimani",
     linkedin: "https://www.linkedin.com/in/washington-kimani-4a306b232/",
+    portfolio: "https://kimani-washington.vercel.app/",
     role: "MERN Stack Developer",
     skills: ["HTML", "CSS", "JS", "jQuery", "BootStrap", "MERN", "MySQL"],
   },
@@ -59,6 +62,7 @@ const props = [
     whatsapp: "https://wa.me/+254112858989?text=Hello%20Joseph",
     github: "https://github.com/",
     linkedin: "https://ke.linkedin.com/in/joseph-odira-52b283225",
+    portfolio: "#",
     role: "FrontEnd Developer",
     skills: [
       "JS",
@@ -77,6 +81,7 @@ const props = [
     whatsapp: "https://wa.me/+254716453748?text=Hello%20Nick",
     github: "https://github.com/nic3holas",
     linkedin: "https://www.linkedin.com/in/nicholas-murimi-684113233",
+    portfolio: "#",
     role: "Full Stack Developer",
     skills: [
       "HTML",

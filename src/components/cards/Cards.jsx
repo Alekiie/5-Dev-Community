@@ -18,6 +18,7 @@ const Cards = ({data}) => {
         <a href={data.whatsapp} target='_blank'><FaIcons.FaWhatsapp className='social_icon'/></a>
         <a href={data.github} target='_blank'><FaIcons.FaGithub className='social_icon'/></a>
         <a href={data.linkedin} target='_blank'><FaIcons.FaLinkedin className='social_icon'/></a>
+        <a href={data.portfolio} target='_blank'><FaIcons.FaUserAlt className='social_icon'/></a>
       </div>
       <div className="skills">
         <h6>Skills</h6>
