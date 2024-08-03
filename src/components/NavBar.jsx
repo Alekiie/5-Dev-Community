@@ -48,7 +48,7 @@ const NavBar = () => {
                 <img 
   src={Logo} 
   alt="logo" 
-  className="max-w-[95px] max-h-[95px] rounded-full bg-white mb-4" 
+  className="max-w-[50px] max-h-[50px] rounded-full bg-white mb-4" 
 />
               </span>
             </Link>
